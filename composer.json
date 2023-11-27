@@ -1,0 +1,15 @@
+{
+    "name": "hp/facturacion",
+    "description": "Sistema de facturación",
+    "type": "proyect",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hp\\Facturacion\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "numphp/numphp": "^1.2"
+    }
+}

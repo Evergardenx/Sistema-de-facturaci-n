@@ -1,0 +1,96 @@
+html { font-family: "Courier New", Courier, arial; color: #000000; height:100%; margin:0; padding:0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+body { margin:0; font-size:16px; height:100%; margin:0; padding:0; background:url() no-repeat center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#container { height:100px; width: auto; margin:0 auto; }
+
+#header { box-shadow: -1px 5px 5px -2px #000000;  position:fixed; width:100%; height:80px; border-radius:0px 0px 15px 15px; background-color:#AA000A; }
+
+#top_info { float:left; width:40px; height:40px; background: #03008F; margin:10px; border: 3px solid #CCC; }
+
+#navbar { height:100px; clear:both; width:50%; margin:0 auto; margin-left:auto; margin-right:auto; }
+#navbar ul { margin:0; padding:0; list-style-type:none; }
+
+#navbar ul li { padding:50px; float:left; width:0 auto; }
+
+#navbar ul li a { font-size:12px; padding:0px 70px 0px 0px; }
+
+#banner { background: rgb(126, 28, 28); height:120px; clear:both; background-image:images/bg.png; }
+
+#footer {
+	clear: both;
+	background: #03008F;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	bottom: 8px;
+	text-align: center;
+	box-shadow:10px -1px 40px 16px #000000;
+}
+
+#headnav { box-shadow: -2px 10px 10px -2px #000000; border-top:10px solid #03008F; padding:0px; clear:both; background: #03008F; height:75px; width:100%;}
+
+#btnnav { border:1px solid #03008F; background: #03008F; border-radius:3px; height:40px; width:105px; color:#FFF; font-family:"Lucida Sans Unicode", "Lucida Grande ", sans-serif; }
+
+#btnsearch { border:1px solid #000000; background: #000000; height:35px; width:90px; color: #FFF; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+#btnadd { border:1px solid #03008F; background: #03008F; border-radius:3px; height:45px; width:125px; color: #FFF; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+#bdnav1 { border:3px solid  #03008F; background: url(https://image.flaticon.com/icons/svg/189/189103.svg); background-color:#4F6EEA; text-align: left; background-repeat:no-repeat; background-position:center; border-radius:20px; height:120px; width:250px; color:  #03008F; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+
+#bdnav2 { border:3px solid  #03008F; background: url(https://image.flaticon.com/icons/svg/265/265674.svg); background-color:#4F6EEA; background-repeat:no-repeat; background-position:center; border-radius:20px; height:120px; width:250px; color:  #03008F; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+
+#bdnav3 { border:2px solid #000; background: url(../images/customers.png); background-color:#FFF; background-repeat:no-repeat; background-position:center; border-radius:20px; height:120px; width:250px; color: #000000; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+#bdnav4 { border:2px solid #000; background: url(../images/supplier.png); background-color:#FFF; background-repeat:no-repeat; background-position:center; border-radius:20px; height:120px; width:250px; color: #000000; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+#bdnav5 { border:2px solid #000; background: url(../images/report.png); background-color:#FFF; background-repeat:no-repeat; background-position:center; border-radius:20px; height:120px; width:250px; color: #000000; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+#bdnav6 { border:2px solid #000; background: url(); background-color:#FFF; background-repeat:no-repeat; background-position:center; border-radius:20px; height:120px; width:250px; color: #000000; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+#txtbox { border:1px solid #CCC; background: #FFE696; border-radius:5px; width:180px; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+
+.popup-position{ display:none; position:fixed; top:0; left:0; background-color:rgba(0,0,0,0.7); width:100%; height:100%; }
+#popup-wrapper{ width:500px; margin:70px auto; text-align:center; }
+
+
+
+
+#popup-container{ background-color:#4F6EEA; border-radius:30px; text-align:center; height:298px; }
+#popup-head-color1 { width:500px; height:1px; color:#FFF; background:#03008F; margin-left:auto; margin-right:auto; padding:40px 40px 70px; }
+#popup-head-color2 { width:500px; height:1px; color:#FFF; background:#03008F; margin-left:auto; margin-right:auto; padding:0px 0px 70px; }
+#popup-head-color3 { width:500px; height:1px; color:#FFF; background:#4AA02C; margin-left:auto; margin-right:auto; padding:0px 0px 70px; }
+#popup-head-color4 { width:500px; height:1px; color:#FFF; background: #999; margin-left:auto; margin-right:auto; padding:0px 0px 70px; }
+
+.popup-position1{ display: block; position:fixed; top:0; left:0; background-color:rgba(0,0,0,0.7); width:100%; height:100%; }
+#popup-wrapper1{ width:500px; margin:70px auto; text-align:center; }
+
+
+#popup-container1{ background-color:#4F6EEA; border-radius:30px; text-align:center; height:300px; }
+#popup-head-color1 { width:500px; height:1px; color:#FFF; background:#03008F; margin-left:auto; margin-right:auto; padding:0px 0px 70px; }
+
+.popup-position1{ display: block; position:fixed; top:0; left:0; background-color:rgba(0,0,0,0.7); width:100%; height:100%; }
+#popup-wrapper2{ width:600px; margin:60px auto; text-align:center; }
+
+#popup-container2{ background-color:#4F6EEA; border-radius:4px; text-align:center; height:520px; }
+
+#popup-head-color5 { width:600px; height:1px; color:#FFF; background: #930; margin-left:auto; margin-right:auto; padding:0px 0px 70px; }
+
+#btncalc { border:1px solid #CCC; color:#000000; background:#FFF; height:25px; width:75px; border-radius:4px; }
+
+a:link {
+	color:#FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+}
+
+table {
+	border-radius:30px;
+	text-align: center;
+}
